@@ -14,7 +14,7 @@ body{
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50%;
+    grid-gap: 70%;
     width: 100%;
 }
 .wrapper2 {
