@@ -23,10 +23,21 @@
             </div>
         </div>
     </nav>
-
-    <main>
-
-    </main>
+    <div class="contenedor-form">
+        <h1>Login</h1>
+            <form action="registrar" class="form" id="form">
+                <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required>
+                <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="name" placeholder="Ingrese su apellido" required>
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" class="correo" placeholder="ingrese su correo" required> 
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required>
+                <button id="enviar" class="enviar" type="submit">registrar</button>
+            </form>
+    </div>
+   
     <script src="../scripts/main.js"></script>
 </body>
 </html>

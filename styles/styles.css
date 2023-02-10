@@ -74,3 +74,38 @@ main > div{
     background-color: #FFB000;
     text-align: center;
 }
+.contenedor-form{
+    width: 45%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 25px 10px;
+    text-align: center;
+}
+.form{
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px;
+    padding: px 10px;
+    text-align: center;
+}
+.form > input,label,select{
+    display: inline-block;
+    width: 80%;
+    margin: 3% 0;
+    font-size: 20px;
+}
+.form > label{
+    text-align: left;
+    padding: 5px;
+}
+.form > button{
+    width: 45%;
+    margin: 4% 0;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
