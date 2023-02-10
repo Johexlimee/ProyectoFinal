@@ -83,7 +83,14 @@ main > div{
     padding: 25px 10px;
     text-align: center;
 }
-
+.form{
+    width: 80%;
+    height: auto;
+    margin: 5% auto;
+    border-radius: 10px;
+    padding: px 10px;
+    text-align: center;
+}
 .form > input,label,select{
     display: inline-block;
     width: 80%;
