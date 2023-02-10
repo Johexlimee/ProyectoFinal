@@ -60,11 +60,11 @@ body{
     color: #ADB0B6;
 }
 .cuerpo{
-    height: 40%;
+    height: 38%;
 }
 footer{
+    padding: 1%;
     background-color: #1E1D1D;
-    padding: 5%;
     text-align: center;
     color: #ADB0B6;
 }
