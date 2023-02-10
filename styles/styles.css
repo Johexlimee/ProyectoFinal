@@ -90,6 +90,7 @@ main > div{
     border-radius: 10px;
     padding: px 10px;
     text-align: center;
+    border: 1px solid gray;
 }
 .form > input,label,select{
     display: inline-block;
