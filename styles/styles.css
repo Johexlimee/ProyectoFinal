@@ -9,11 +9,13 @@ body{
 }
 .navbar {
     background: #FFB000;
+    position: relative;
 }
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 50%;
+    width: 100%;
 }
 .wrapper2 {
     display: grid;
@@ -29,17 +31,17 @@ body{
     grid-column: 3 / 6;
     grid-row: 1;
 }
-.elementos{
-    text-align: right;
-    text-decoration: none;
-    color: black;
-}
 .logo{
     padding-left: 10px;
     font-size: 50px;
     text-decoration: none;
+}
+.elementos{
+    text-align: left;
+    text-decoration: none;
     color: black;
 }
+
 .elementos > a{
     text-decoration: none;
     color: black;
