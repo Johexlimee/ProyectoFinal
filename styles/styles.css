@@ -7,13 +7,21 @@ body {
     background-color: #F1C232;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a{
+    text-decoration: none;
+}
+.logo{
+    padding: 5px;
+    font-size: 80px;
+    color: black;
+}
 img {
     vertical-align: middle;
     font-size: 50px;
     padding: 15px;
 }
 .titulo {
-    background-color: #999999;
+    background-color: #666666;
     text-align: center;
     padding: 25px;
 }
@@ -34,34 +42,31 @@ h2 {
 footer {
     background-color: #333333;
 }
+footer > a{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
 .container {
     height: 300px;
     width: 100%;
     margin: 0px;
     display: table;
-    border-spacing: 0px;
 }
 .elemento30p {
-    height: 100%;
     width: 40%;
     display: table-cell;
 }
-.elemento30p > p{
-    font-size: 20px;
-    text-align: justify;
-    padding: 100px;
-
-}
 .elemento70p {
-    height: 100%;
     width: 60%;
     display: table-cell;
-    top: 50%;
-    left: 50%;
 }
 .imge{
   display: block;
-  padding: 100px;
+  padding: 70px;
   margin-left: auto;
   margin-right: auto;
+}
+.tienda{
+    height: 1000px;
 }
