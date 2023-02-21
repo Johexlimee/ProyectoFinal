@@ -7,6 +7,9 @@ body {
     background-color: #F1C232;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar{
+    margin-bottom: 20px;
+}
 a{
     text-decoration: none;
 }
@@ -41,6 +44,8 @@ h2 {
 }
 footer {
     background-color: #333333;
+    padding-top: 50px;
+    margin-top: 300px;
 }
 footer > a{
     color: white;
@@ -52,6 +57,59 @@ footer > a{
     width: 100%;
     margin: 0px;
     display: table;
+}
+.titulo-form{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333333;
+    padding: 5px;
+}
+.titulo-form > h1{
+    font-size: 50px;
+}
+.containter-formu{
+    width: 50%;
+    height: 300px;
+    padding: 15px;
+    margin: 2% 15% auto;
+    background-color:#666666;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+.contTargets{
+    display: flex;
+}
+.form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form > label, input{
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+.form > button{
+    display: inline-block;
+    width: 30%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 15px;
+}
+.tarjeta-2 > h1{
+    font-size: 25px;
+    color: #333333;
 }
 .elemento30p {
     width: 40%;
