@@ -20,8 +20,6 @@ a{
 }
 img {
     vertical-align: middle;
-    font-size: 50px;
-    padding: 15px;
 }
 .titulo {
     background-color: #666666;
@@ -52,12 +50,19 @@ footer > a{
     font-size: 30px;
     padding: 10px;
 }
+.dere > a{
+    color: black;
+    font-size: 15px;
+    padding: 1px;
+    padding-right: 40px;
+}
 .container {
-    height: 300px;
+    height: auto;
     width: 100%;
     margin: 0px;
     display: table;
 }
+
 .titulo-form{
     width: 100%;
     height: auto;
@@ -69,20 +74,22 @@ footer > a{
 .titulo-form > h1{
     font-size: 50px;
 }
+.contTargets{
+    width: 100vw;
+    display: flex;
+}
 .containter-formu{
-    width: 50%;
+    width: 35%;
     height: 300px;
     padding: 15px;
-    margin: 2% 15% auto;
+    margin: 2% 10% auto;
     background-color:#666666;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
     
 }
-.contTargets{
-    display: flex;
-}
+
 .form{
     width: 80%;
     height: auto;
@@ -91,14 +98,15 @@ footer > a{
     text-align: center;
     align-items: center;
     justify-content: center;
+    display: block;
 }
 
 .form > label, input{
     display: inline-block;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 .form > button{
     display: inline-block;
@@ -107,9 +115,15 @@ footer > a{
     padding: 7px;
     margin: 15px;
 }
+.tarjeta-2{
+    width: 50%;
+}
 .tarjeta-2 > h1{
     font-size: 25px;
     color: #333333;
+    text-align: center;
+    
+    
 }
 .elemento30p {
     width: 40%;
@@ -120,10 +134,10 @@ footer > a{
     display: table-cell;
 }
 .imge{
-  display: block;
-  padding: 70px;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tienda{
     height: 1000px;
