@@ -44,11 +44,16 @@ footer {
     background-color: #333333;
     padding-top: 50px;
     margin-top: 300px;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    height: auto;
 }
 footer > a{
     color: white;
     font-size: 30px;
-    padding: 10px;
+
 }
 .dere > a{
     color: black;
@@ -62,9 +67,77 @@ footer > a{
     margin: 0px;
     display: table;
 }
-.dere{
-    text-align: right;
-    float: right;
+
+.titulo-form{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #333333;
+    padding: 5px;
+}
+.titulo-form > h1{
+    font-size: 50px;
+}
+.contTargets{
+    width: 100vw;
+    display: flex;
+}
+.containter-formu{
+    width: 35%;
+    height: 400px;
+    padding: 15px;
+    margin: 2% 10% auto;
+    background-color:#888686;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.form > label, input{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+.form > button{
+    display: inline-block;
+    width: 30%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 15px;
+}
+.tarjeta-2{
+    width: 50%;
+    text-align: center;
+}
+.tarjeta-2 > h1{
+    font-size: 50px;
+    color: #333333;
+}
+.tarjeta-2 > p{
+    font-size: 25px;
+    color: #333333;
+    vertical-align: middle;
+}
+.tarjeta-2 >p,h1, button{
+    position: relative;
+    top: 25%;
+    padding: 7px;
+    margin: 15px;
+    right: 5%;
 }
 .tarjeta-2 > button{
     margin-top: 3%;
