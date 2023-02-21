@@ -44,11 +44,16 @@ footer {
     background-color: #333333;
     padding-top: 50px;
     margin-top: 300px;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    height: auto;
 }
 footer > a{
     color: white;
     font-size: 30px;
-    padding: 10px;
+
 }
 .dere > a{
     color: black;
@@ -83,7 +88,7 @@ footer > a{
     height: 400px;
     padding: 15px;
     margin: 2% 10% auto;
-    background-color:#666666;
+    background-color:#888686;
     align-items: center;
     justify-content: center;
     border: 1px solid black;
