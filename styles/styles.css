@@ -121,8 +121,11 @@ footer > a{
 .tarjeta-2 > h1{
     font-size: 25px;
     color: #333333;
+    text-align: center; 
+}
+.tarjeta-2 > p{
+    color: #333333;
     text-align: center;
-    
     
 }
 .elemento30p {
