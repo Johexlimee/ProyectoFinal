@@ -128,12 +128,20 @@ footer > a{
     text-align: center;
     
 }
-.elemento30p {
-    width: 40%;
+.elemento70p {
+    width: 70%;
     display: table-cell;
 }
-.elemento70p {
+.elemento60p {
     width: 60%;
+    display: table-cell;
+}
+.elemento30p {
+    width: 30%;
+    display: table-cell;
+}
+.elemento20p {
+    width: 20%;
     display: table-cell;
 }
 .imge{
@@ -143,5 +151,6 @@ footer > a{
     margin-right: auto;
 }
 .tienda{
-    height: 1000px;
+    height: auto;
+    padding: 50px;
 }
