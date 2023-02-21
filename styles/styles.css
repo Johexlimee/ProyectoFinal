@@ -7,6 +7,9 @@ body {
     background-color: #F1C232;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar{
+    margin-bottom: 20px;
+}
 a{
     text-decoration: none;
 }
@@ -39,6 +42,8 @@ h2 {
 }
 footer {
     background-color: #333333;
+    padding-top: 50px;
+    margin-top: 300px;
 }
 footer > a{
     color: white;
@@ -54,27 +59,15 @@ footer > a{
 .container {
     height: auto;
     width: 100%;
-    margin: 0 auto;   
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
+    margin: 0px;
+    display: table;
 }
-.container>div{
-    text-align: center;    
-    border: 1px solid cadetblue;
-}
-.izq{   
-    display: inline-block;   
-}
-
 .dere{
     text-align: right;
     float: right;
 }
-
-.elemento60p {    
-    display: inline-block;
+.tarjeta-2 > button{
+    margin-top: 3%;
 }
 .elemento70p {
     width: 60%;
