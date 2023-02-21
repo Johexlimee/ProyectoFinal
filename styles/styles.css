@@ -7,32 +7,12 @@ body {
     background-color: #F1C232;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navbar{
-    margin-bottom: 20px;
-}
-a{
+a {
     text-decoration: none;
-}
-.logo{
-    padding: 5px;
-    font-size: 80px;
-    color: black;
-}
-img {
-    vertical-align: middle;
-}
-.titulo {
-    background-color: #666666;
-    text-align: center;
-    padding: 25px;
-}
-.titulo > p{
-    font-size: 25px;
 }
 h1 {
     font-size: 100px;
     color: #F1C232;
-    padding: 5px;
 }
 h2 {
     font-size: 40px;
@@ -42,31 +22,81 @@ h2 {
 }
 footer {
     background-color: #333333;
-    padding-top: 50px;
-    margin-top: 300px;
-    position: absolute;
-    bottom: 0;
-    height: 40px;
-    width: 100%;
-    height: auto;
 }
 footer > a{
     color: white;
     font-size: 30px;
-
 }
-.dere > a{
-    color: black;
-    font-size: 15px;
-    padding: 1px;
-    padding-right: 40px;
+/*Index*/
+.imgLogo{
+    height: auto;
+    width: 100px;
+    vertical-align: middle;
 }
-.container {
+.separador{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.logoHead{
+    grid-column: 1/7;
+    grid-row: 1;
+}
+.logoLinks{
+    grid-column: 7/11;
+    grid-row: 1;
+}
+.infoStore{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: justify;
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 5%;
+}
+.imgStore{
+    grid-column: 5/11;
+    grid-row: 1;
+    padding: 3%;
+}
+.imgStore img{
     height: auto;
     width: 100%;
-    margin: 0px;
-    display: table;
 }
+.logo{
+    padding: 5px;
+    font-size: 80px;
+    color: black;
+}
+.titulo {
+    background-color: #666666;
+    text-align: center;
+}
+.titulo > p{
+    font-size: 25px;
+}
+.filtro{
+    background-color: #888686;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin: 25px;
+    text-align: center;
+}
+.productos{
+    grid-column: 4/11;
+    grid-row: 1;
+}
+.card {
+    margin: 25px auto;
+    background-color: aliceblue;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    display: inline-block;
+}
+
 
 .titulo-form{
     width: 100%;
@@ -133,7 +163,7 @@ footer > a{
     color: #333333;
     vertical-align: middle;
 }
-.tarjeta-2 >p,h1, button{
+.tarjeta-2 > p h1 button{
     position: relative;
     top: 25%;
     padding: 7px;
@@ -148,26 +178,4 @@ footer > a{
 .tarjeta-2 >a{
     font-size: 15px;
     color: black;
-}
-.elemento70p {
-    width: 60%;
-    display: table-cell;
-}
-.elemento30p {
-    width: 30%;
-    display: table-cell;
-}
-.elemento20p {
-    width: 20%;
-    display: table-cell;
-}
-.imge{
-    display: block;
-    padding: 70px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.tienda{
-    height: auto;
-    padding: 50px;
 }
