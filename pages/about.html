@@ -9,33 +9,43 @@
 </head>
 <body>
     <!--Barra de Navegacion - Se planea que este en horizontal-->
-    <nav class="navbar">
-        <div class="wrapper">
-            <div>
-                <a class="logo" href="../index.html">
-                    <img src="../assets/img/Logo.png" width="70" height="70" alt="Logo"> GamerStore
-                </a>
-            </div>
-            <div class="elementos">
-                <a href="./store.html"><strong>/Tienda/</strong></a>
-                <a href="./sign.html"><strong>/Crear Cuenta/</strong></a>
-                <a href="./login.html"><strong>/Iniciar Sesion/</strong></a>
-            </div>
+    <header class="separador">
+        <div class="logoHead">
+            <a href="../index.html"><img src="../assets/img/Logo.png" alt="Logo" class="imgLogo">Gamerstore</a>
         </div>
-    </nav>
-
+        <div class="logoLinks">
+            <a href="../pages/login.html"><img src="../assets/img/sesion.png" class="linkImg" alt="Iniciar Sesion"></a>
+            <a href="../pages/shopping.html"><img src="../assets/img/Carrito.png" class="linkImg" alt="Carrito"></a>
+        </div>
+    </header>
     <main>
-        <h2>¿quienes somos?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veritatis omnis error ipsam quisquam. Maiores assumenda optio nesciunt ducimus suscipit, modi ut inventore incidunt deserunt architecto est sit error molestiae.
-        Repudiandae eum aliquam obcaecati, facilis, illum voluptates similique, vel amet excepturi impedit earum delectus cumque dicta odit. Cum dolorum omnis molestias totam? Illum fuga id rem repellendus aliquid vero sapiente.
-        Maxime sunt illum minima, eligendi impedit omnis ullam, laudantium deserunt qui tenetur, porro hic perferendis quo officia magni suscipit sed saepe inventore nemo corporis unde voluptates! Tenetur minima culpa aliquam.</p>
-        <h2>misión</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et nam ex exercitationem natus expedita dignissimos rem, eligendi repellat soluta aspernatur perspiciatis, earum rerum eum nulla illum, explicabo accusantium fugit?
-        Ut iure, modi animi et aspernatur recusandae possimus nam quos accusamus. Minus omnis id aliquam officia modi, ullam iste dolores consequuntur voluptates molestias itaque delectus? Minus tempora fugiat commodi repellat?</p>
-        <h2>Visión</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nemo doloribus veritatis dicta consectetur, nihil quidem rerum, modi optio inventore non quis ex aspernatur in soluta velit laboriosam consequatur praesentium!
-        Voluptates cumque aut assumenda, ullam fugit adipisci debitis repudiandae distinctio dolorem. Quas mollitia adipisci magnam praesentium delectus ipsam minus qui sint maiores, quisquam architecto facilis aliquam harum possimus unde? Quasi!</p>
+        <section class="titulo">
+            <h2>Sobre nosotros</h2>
+        </section>
+        <h3 class="nosotros">¿quienes somos?</h3>
+        <p class="texto">Somos una empresa la cual permite la compra de objetos de videojuegos en linea a buen precio, contamos con las certificaciones necesarias para la venta de estos productos. Buscamos que sea mas rapida y confiable la copra de nuestros productos.</p>
     </main>
+    <section class="containerNosotros">
+        <div class="perfil">
+            <img src="../assets/img/kevin.jpg" alt="" class="imgPerfil">
+            <p>Kevin Daniel Ospina Hernández</p>
+        </div>
+        <div class="perfil">
+            <img src="../assets/img/ichiban.jpg" alt="" class="imgPerfil">
+            <p>Johel Hernan Castillo Petro</p>
+        </div>
+        <div class="perfil">
+            <img src="../assets/img/maiquel.jpg" alt="" class="imgPerfil">
+            <p>Michael Eduardo Perez Rodriguez</p>
+        </div>
+    </section>
+    <footer>
+        <img src="../assets/img/Logo.png" alt="Logo" class="imgLogo">
+        <a href="../pages/about.html">Acerca de Nosotros   </a>
+        <a href="../pages/contact.html">Contactos</a>
+        <script src="./scripts/main.js"></script>
+    </footer>
     <script src="../scripts/main.js"></script>
+
 </body>
 </html>
