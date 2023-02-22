@@ -46,7 +46,7 @@
                         <p class="nDispo">EN STOCK</p>
                         <p class="nCodigo">CSAK4757</p>
                         <button>Agregar al Carrito</button>
-                        <button>Descripción</button>
+                        <button id="descripccion">Descripción</button>
                 </div>
                 <div class="card">
                     <img src="./assets/img/Desert-eagle.png" alt="" >
@@ -95,8 +95,10 @@
                         <p class="nJuego">CS:GO</p>
                         <p class="nDispo">EN STOCK</p>
                         <p class="nCodigo">M4A179684</p>
-                        <button>Agregar al Carrito</button>
-                        <button>Descripción</button>
+                        <form id="formulario"method="post" action="cart.php"></form>
+                            <button type="submit">Agregar al Carrito</button>
+                            <button>Descripción</button>
+                        </form>
                 </div>
             </div>
         </section>
@@ -105,6 +107,7 @@
         <img src="./assets/img/Logo.png" alt="Logo" class="imgLogo">
         <a href="./pages/about.html">Acerca de Nosotros   </a>
         <a href="./pages/contact.html">Contactos</a>
+        <script src="./scripts/main.js"></script>
     </footer>
 </body>
 </html>

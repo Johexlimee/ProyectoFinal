@@ -60,8 +60,8 @@ footer > a{
 .infoStore{
     grid-column: 1/5;
     grid-row: 1;
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
     padding: 5%;
 }
 .imgStore{
@@ -279,15 +279,20 @@ footer > a{
     grid-row: 1/7;
 }
 .imgProducto{
-    height: 50px;
-    width: 60px;
+    height: 100%;
+    width: 100%;
+    padding: 2%;
 }
 .imgContact{
     grid-column: 1/5;
     grid-row: 1;
-    text-align: justify;
     font-size: 20px;
     padding: 5%;
+}
+.imgContact > img{
+    height: auto;
+    width: 100%;
+    margin: 7%;
 }
 .formContact{
     background-color: #888686;
@@ -295,4 +300,55 @@ footer > a{
     grid-column: 5/11;
     grid-row: 1;
     padding: 3%;
+}
+.alerta{
+    width: 25%;
+    height: 100px;
+    background-color: #f25757;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 7%;
+    border: 2px solid #3c3d59;
+}
+.textAlerta{
+    width: 100%;
+    margin-top: 10%;
+    color: #fff;
+}
+/* about keviiiiiiin*/
+.nosotros{
+    margin: 2% 0 0 6%;
+    font-size: 30px;
+}
+.texto{
+    font-size: 25px;
+    margin: 3% 0 0 6%;
+}
+
+.containerNosotros{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30%;
+    margin-top: 5%;
+}
+.perfil{
+    background-color:#333333;
+    margin: 20px;
+    padding: 1%;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    padding: 2%;
+    color: white;
+    height: 350px;
+}
+.imgPerfil{
+    height: 100%;
+    width: 100%;
 }
