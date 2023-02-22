@@ -26,14 +26,14 @@
             <div class="imgContact">
                 <img src="" alt="">
             </div>
-            <div class="formContact">
-                <form action="" class="form">
-                    <label for="nombreC">Nombre</label><br>
-                    <input type="text" placeholder="nombre" id="nombreC"><br>
-                    <label for="correoC">Correo</label><br>
-                    <input type="gmail" placeholder="correo electronico" id="correoC"><br>
-                    <label for="mensajeC">Mensaje</label><br>
-                    <textarea name="mensajeC" class="mensajeC" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+            <div class="formContact"> 
+                <form class="form" action="https://formspree.io/f/xwkjoavb" method="POST">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="nombre"><br>
+                    <label>Correo</label>
+                    <input type="email" name="email" placeholder="correo electronico"><br>
+                    <label>Mensaje</label>
+                    <textarea name="mesagge" class="mensajeC" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
                     <button class="enviar" type="submit">enviar</button>
                 </form>
             </div>
