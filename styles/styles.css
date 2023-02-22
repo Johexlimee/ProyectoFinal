@@ -115,7 +115,7 @@ footer > a{
 .card > img {
     width: 50%;
     vertical-align: middle;
-    height: 150px;
+    height: auto;
     width: 100%;
 }
 /*Inicia los forms login y sign maikeeelllll*/
