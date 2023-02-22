@@ -74,6 +74,10 @@ footer > a{
     height: auto;
     width: 100%;
 }
+.card img{
+    height: auto;
+    width: 100px;
+}
 .logo{
     padding: 5px;
     font-size: 80px;
@@ -111,6 +115,8 @@ footer > a{
     height: 0 auto;
     width: 50%;
     vertical-align: middle;
+    height: auto;
+    width: 100%;
 }
 /*Inicia los forms login y sign maikeeelllll*/
 .titulo-form{
@@ -209,7 +215,4 @@ footer > a{
     grid-column: 3/9;
     grid-row: 1/7;
 }
-.imgProducto{
-    height: 50px;
-    width: 60px;
-}
+
