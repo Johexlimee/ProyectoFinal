@@ -25,7 +25,8 @@ footer {
 }
 footer > a{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    margin: 10px 30px;
 }
 /*Index*/
 .imgLogo{
@@ -48,8 +49,14 @@ footer > a{
     color: black;
 }
 .logoLinks{
+    text-align: end;
     grid-column: 7/11;
     grid-row: 1;
+}
+.linkImg{
+    height: auto;
+    width: 80px;
+    margin: 10px 20px;
 }
 .infoStore{
     grid-column: 1/5;
