@@ -127,7 +127,8 @@ footer > a{
 .contTargets{
     width: 100vw;
     display: flex;
-    margin-bottom: 241.5px;
+    margin-bottom: 211.6px;
+    padding: 15px 0px 15px 0px;
 }
 .containter-formu{
     width: 35%;
@@ -169,6 +170,7 @@ footer > a{
 .tarjeta-2{
     width: 50%;
     text-align: center;
+    
 }
 .tarjeta-2 > h1{
     font-size: 50px;
@@ -187,9 +189,12 @@ footer > a{
     right: 5%;
 }
 .tarjeta-2 > button{
-    margin-top: 3%;
+    display: inline-block;
+    width: 15%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 15px;
     box-shadow: 2px 1.5px 1.5px#2c2c2c;
-    color: black;
 }
 .tarjeta-2 >a{
     font-size: 15px;
@@ -201,6 +206,60 @@ footer > a{
     justify-content: center;
     align-items: center;
     border: 1px black;
+    margin-bottom: 44px;
+}
+.contenedor-form-reg{
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    margin: 20px;
+    background-color:#888686;
+    align-items: left;
+    justify-content: left;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.form-reg{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+}
+.form-reg > label, input{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    text-align: left;
+}
+.form-reg > button{
+    width: 30%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 0 auto;
+    box-shadow: 2px 1.5px 1.5px#2c2c2c;
+}
+.tarjeta-2-reg{
+    width:70%;
+    text-align: justify;
+    text-justify:distribute;
+    padding: 15px;
+}
+.tarjeta-2-reg > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.tarjeta-2-reg > img{
+    margin:0 auto;
+    width: 100%;
+}
+.check{
+    text-align: center !important;
 }
 /*Fin forms maikeeelllll*/
 .carroContenedor{
