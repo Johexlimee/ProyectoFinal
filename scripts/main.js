@@ -15,7 +15,7 @@ async function handleSubmit(event) {
         method: this.method,
         body: form, 
         headers: {
-            'Accept': 'application/json'        
+            'Accept': 'application/json'
         }
     })
     if (response.ok){
