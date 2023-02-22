@@ -27,7 +27,7 @@ btnDescript.addEventListener('click', ()=>{
 });
 */
 const $form = document.getElementById('form');
-$form.addEventListener('submit', handlesubmit);
+$form.addEventListener('submit', handleSubmit);
 
 async function handleSubmit(event) {
     event.preventDefault();
@@ -36,7 +36,7 @@ async function handleSubmit(event) {
         method: this.method,
         body: form, 
         headers: {
-            'Accept': 'application/json'        
+            'Accept': 'application/json'
         }
     })
     if (response.ok){
