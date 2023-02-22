@@ -2,7 +2,7 @@
 
 const btnDescript = document.getElementById('descripccion');
 btnDescript.addEventListener('click', ()=>{
-    const modalAlert = (btnDescript)=>{
+    /*const modalAlert = (btnDescript)=>{
         const alerta = document.createElement('div');
         const texto = document.createElement('p');
         const img = document.createElement('img');
@@ -21,7 +21,7 @@ btnDescript.addEventListener('click', ()=>{
     
     }
     
-});
+});*/
 /*btnDescript.addEventListener('click', ()=>{
     alert("Hola buenas tardes");
 });

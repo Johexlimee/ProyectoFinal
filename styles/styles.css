@@ -306,3 +306,33 @@ footer > a{
     margin-top: 10%;
     color: #fff;
 }
+/* about keviiiiiiin*/
+.nosotros{
+    margin: 2% 0 0 1%;
+    font-size: 30px;
+}
+.texto{
+    font-size: 25px;
+    margin: 1%;
+}
+
+.containerNosotros{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30%;
+    margin-top: 15%;
+}
+.perfil{
+    background-color:#333333;
+    margin: 20px;
+    padding: 1%;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    padding: 3%;
+    color: white;
+    height: 350px;
+}
