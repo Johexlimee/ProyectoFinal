@@ -309,12 +309,12 @@ footer > a{
 }
 /* about keviiiiiiin*/
 .nosotros{
-    margin: 2% 0 0 1%;
+    margin: 2% 0 0 6%;
     font-size: 30px;
 }
 .texto{
     font-size: 25px;
-    margin: 1%;
+    margin: 3% 0 0 6%;
 }
 
 .containerNosotros{
@@ -322,7 +322,7 @@ footer > a{
     width: 100%;
     justify-content: space-around;
     margin-bottom: 30%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 .perfil{
     background-color:#333333;
