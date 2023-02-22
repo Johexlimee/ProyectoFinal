@@ -112,6 +112,7 @@ footer > a{
     width: 50%;
     vertical-align: middle;
 }
+/*Inicia los forms login y sign maikeeelllll*/
 .titulo-form{
     width: 100%;
     height: auto;
@@ -126,6 +127,7 @@ footer > a{
 .contTargets{
     width: 100vw;
     display: flex;
+    margin-bottom: 241.5px;
 }
 .containter-formu{
     width: 35%;
@@ -193,6 +195,14 @@ footer > a{
     font-size: 15px;
     color: black;
 }
+.container-reg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px black;
+}
+/*Fin forms maikeeelllll*/
 .carroContenedor{
     margin: 50px;
     background-color: #333333;
