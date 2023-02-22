@@ -264,6 +264,13 @@ footer > a{
 .check{
     text-align: center !important;
 }
+.is-valid{
+    background-color: #7fb17f !important;
+    border-bottom: 1px solid #7fb17f !important;
+}
+.is-invalid{
+    border-bottom: 2px solid #f81818 !important;
+}
 /*Fin forms maikeeelllll*/
 .carroContenedor{
     margin: 50px;
