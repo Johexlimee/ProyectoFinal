@@ -16,8 +16,7 @@ h1 {
 }
 h2 {
     font-size: 40px;
-    padding: 5px;
-    padding-bottom: 25px;
+    padding: 10px;
     color: #F1C232;
 }
 footer {
@@ -86,6 +85,7 @@ footer > a{
 }
 .titulo > p{
     font-size: 25px;
+    padding-bottom: 10px;
 }
 .filtro{
     background-color: #888686;
@@ -192,4 +192,10 @@ footer > a{
 .tarjeta-2 >a{
     font-size: 15px;
     color: black;
+}
+.carroContenedor{
+    margin: 50px;
+    background-color: #333333;
+    grid-column: 3/9;
+    grid-row: 1/7;
 }
