@@ -42,6 +42,10 @@ footer > a{
 .logoHead{
     grid-column: 1/7;
     grid-row: 1;
+    font-size: 70px;
+}
+.logoHead > a{
+    color: black;
 }
 .logoLinks{
     grid-column: 7/11;
@@ -95,14 +99,12 @@ footer > a{
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
     border-radius: 20px;
     display: inline-block;
-    
 }
 .card > img {
-    height: auto;
+    height: 0 auto;
     width: 50%;
     vertical-align: middle;
 }
-
 .titulo-form{
     width: 100%;
     height: auto;
