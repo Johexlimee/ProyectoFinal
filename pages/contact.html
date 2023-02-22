@@ -9,33 +9,41 @@
 </head>
 <body>
     <!--Barra de Navegacion - Se planea que este en horizontal-->
-    <nav class="navbar">
-        <div class="wrapper">
-            <div>
-                <a class="logo" href="../index.html">
-                    <img src="../assets/img/Logo.png" width="70" height="70" alt="Logo"> 
-                </a>
-            </div>
-            <div class="elementos">
-                <a href="./store.html"><strong>/Tienda/</strong></a>
-                <a href="./sign.html"><strong>/Crear Cuenta/</strong></a>
-                <a href="./login.html"><strong>/Iniciar Sesion/</strong></a>
-            </div>
+    <header class="separador">
+        <div class="logoHead">
+            <a href="../index.html"><img src="../assets/img/Logo.png" alt="Logo" class="imgLogo">Gamerstore</a>
         </div>
-        <h1>GamerStore</h1>
-    </nav>
-
-    <form action="" class="form">
-        <label for="nombreC">Nombre</label><br>
-        <input type="text" placeholder="nombre" id="nombreC"><br>
-        <label for="correoC">Correo</label><br>
-        <input type="gmail" placeholder="correo electronico" id="correoC"><br>
-        <label for="mensajeC">Mensaje</label><br>
-        <input type="text" placeholder="Mensaje" id="mensajeC">
-        <button class="enviar" type="submit">enviar</button>
-    </form>
-
-    <footer><p>correo:gamerstore@gmail.co</p><p>telefono:319605975</p><p></p></footer>
+        <div class="logoLinks">
+            <a href="./login.html"><img src="../assets/img/sesion.png" class="linkImg" alt="Iniciar Sesion"></a>
+            <a href="./shopping.html"><img src="../assets/img/Carrito.png" class="linkImg" alt="Carrito"></a>
+        </div>
+    </header>
+    <main>
+        <section class="titulo">
+            <h2>Contactanos</h2>
+        </section>
+        <section class="separador">
+            <div class="imgContact">
+                <img src="" alt="">
+            </div>
+            <div class="formContact">
+                <form action="" class="form">
+                    <label for="nombreC">Nombre</label><br>
+                    <input type="text" placeholder="nombre" id="nombreC"><br>
+                    <label for="correoC">Correo</label><br>
+                    <input type="gmail" placeholder="correo electronico" id="correoC"><br>
+                    <label for="mensajeC">Mensaje</label><br>
+                    <textarea name="mensajeC" class="mensajeC" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    <button class="enviar" type="submit">enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="../assets/img/Logo.png" alt="Logo" class="imgLogo">
+        <a href=".about.html">Acerca de Nosotros   </a>
+        <a href="./contact.html">Contactos</a>
+    </footer>
     <script src="../scripts/main.js"></script>
 </body>
 </html>
