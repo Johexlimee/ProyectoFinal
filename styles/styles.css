@@ -289,3 +289,20 @@ footer > a{
     grid-row: 1;
     padding: 3%;
 }
+.alerta{
+    width: 25%;
+    height: 100px;
+    background-color: #f25757;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 7%;
+    border: 2px solid #3c3d59;
+}
+.textAlerta{
+    width: 100%;
+    margin-top: 10%;
+    color: #fff;
+}
