@@ -62,7 +62,6 @@ footer > a{
     grid-row: 1;
     text-align: justify;
     font-size: 20px;
-    vertical-align: middle;
     padding: 5%;
 }
 .imgStore{
@@ -142,13 +141,11 @@ footer > a{
     height: auto;
     margin: 0 auto;
     padding: 15px;
-    text-align: center;
-    align-items: center;
     justify-content: center;
     display: block;
 }
 
-.form > label, input{
+.form > label, input, textarea{
     display: inline-block;
     width: 100%;
     font-size: 18px;
@@ -202,4 +199,18 @@ footer > a{
 .imgProducto{
     height: 50px;
     width: 60px;
+}
+.imgContact{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: justify;
+    font-size: 20px;
+    padding: 5%;
+}
+.formContact{
+    background-color: #888686;
+    margin: 5%;
+    grid-column: 5/11;
+    grid-row: 1;
+    padding: 3%;
 }
