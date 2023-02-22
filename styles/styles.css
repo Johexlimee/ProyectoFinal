@@ -199,3 +199,7 @@ footer > a{
     grid-column: 3/9;
     grid-row: 1/7;
 }
+.imgProducto{
+    height: 50px;
+    width: 60px;
+}
