@@ -279,9 +279,13 @@ footer > a{
 .imgContact{
     grid-column: 1/5;
     grid-row: 1;
-    text-align: justify;
     font-size: 20px;
     padding: 5%;
+}
+.imgContact > img{
+    height: auto;
+    width: 100%;
+    margin: 7%;
 }
 .formContact{
     background-color: #888686;
