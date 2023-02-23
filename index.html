@@ -35,10 +35,20 @@
         </section>
         <section class="separador">
             <div class="filtro">
-                    <h2>Filtros</h2>
+                <h2>Filtros</h2>
+                <label for="buscador">Categoria</label>
+                <select name="buscador" id="buscador" class="buscador">
+                    <option value="">Todo</option>
+                    <option value="skin">Skins</option>
+                    <option value="stock">En Stock</option>
+                    <option value="agotado">Agotado</option>
+                    <option value="v">Moneda Virtual</option>
+                </select><br><br><br>
+                <label for="buscador">Palabra Clave:</label>
+                <input type="text" name="buscador" id="buscador" placeholder="Buscar..." class="buscador">
             </div>
             <div class="productos">
-                <div class="card">
+                <div class="card skin stock">
                     <img src="./assets/img/ak-47.jpg" alt="" >
                         <p class="nProducto">Skin CS:GO ak-47</p>
                         <p class="nPrecio">$30.000</p>
@@ -48,37 +58,37 @@
                         <button>Agregar al Carrito</button>
                         <button id="descripccion">Descripción</button>
                 </div>
-                <div class="card">
+                <div class="card skin nstock">
                     <img src="./assets/img/Desert-eagle.png" alt="" >
-                        <p class="nProducto">Desert Eagle</p>
-                        <p class="nPrecio">$25.000</p>
+                        <p class="nProducto">Skin Desert Eagle</p>
+                        <p class="nPrecio">$25000</p>
                         <p class="nJuego">CS:GO</p>
                         <p class="nDispo">AGOTADO</p>
                         <p class="nCodigo">CSDESERT4861</p>
                         <button>Agregar al Carrito</button>
                         <button>Descripción</button>
                 </div>
-                <div class="card">
+                <div class="card skin stock">
                     <img src="./assets/img/m4a1-fast.jpg" alt="" class="helmet">
-                        <p class="nProducto">M4A1</p>
-                        <p class="nPrecio">$40.000</p>
+                        <p class="nProducto">Skin M4A1</p>
+                        <p class="nPrecio">$40000</p>
                         <p class="nJuego">CS:GO</p>
                         <p class="nDispo">EN STOCK</p>
                         <p class="nCodigo">M4A16870:</p>
                         <button>Agregar al Carrito</button>
                         <button>Descripción</button>
                 </div>
-                <div class="card">
+                <div class="card skin nstock">
                     <img src="./assets/img/mp5.jpg" alt="">
-                        <p class="nProducto">MP5</p>
-                        <p class="nPrecio">$28.000</p>
+                        <p class="nProducto">Skin MP5</p>
+                        <p class="nPrecio">$28000</p>
                         <p class="nJuego">CS:GO</p>
                         <p class="nDispo">AGOTADO</p>
                         <p class="nCodigo">MP57643</p>
                         <button>Agregar al Carrito</button>
                         <button>Descripción</button>
                 </div>
-                <div class="card">
+                <div class="card vmoney stock">
                     <img src="./assets/img/pavos.jpg" alt="">
                         <p class="nProducto">1000 PAVOS</p>
                         <p class="nPrecio">$35.000</p>
@@ -88,10 +98,10 @@
                         <button>Agregar al Carrito</button>
                         <button>Descripción</button>
                 </div>
-                <div class="card">
+                <div class="card skin stock">
                     <img src="./assets/img/m4a1.jpg" alt="">
-                        <p class="nProducto">M4A1</p>
-                        <p class="nPrecio">$45.000</p>
+                        <p class="nProducto">Skin M4A1</p>
+                        <p class="nPrecio">$45000</p>
                         <p class="nJuego">CS:GO</p>
                         <p class="nDispo">EN STOCK</p>
                         <p class="nCodigo">M4A179684</p>

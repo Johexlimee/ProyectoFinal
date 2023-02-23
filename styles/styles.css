@@ -119,6 +119,10 @@ footer > a{
     height: auto;
     width: 100%;
 }
+.buscador {
+    display: inline-block;
+    width: 90%;
+}
 /*Inicia los forms login y sign maikeeelllll*/
 .contTargets{
     width: 100vw;
@@ -500,4 +504,7 @@ footer > a{
         font-size: 30px;
     }
     
+}
+.filt{
+    display: none;
 }
