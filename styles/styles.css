@@ -32,6 +32,7 @@ footer > a{
     height: auto;
     width: 100px;
     vertical-align: middle;
+    padding: 10px;
 }
 .separador{
     display: grid;
@@ -56,6 +57,7 @@ footer > a{
     height: auto;
     width: 80px;
     margin: 10px 20px;
+    padding: 15px;
 }
 .infoStore{
     grid-column: 1/5;
@@ -351,4 +353,10 @@ footer > a{
 .imgPerfil{
     height: 100%;
     width: 100%;
+}
+@media(max-width:1020px) {
+    
+}
+@media (max-width:886px){
+    
 }
