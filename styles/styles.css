@@ -318,7 +318,6 @@ footer > a{
     font-size: 25px;
     margin: 3% 0 0 6%;
 }
-
 .containerNosotros{
     display: flex;
     width: 100%;
@@ -379,10 +378,21 @@ footer > a{
     }
 }
 @media (max-width:640px){
+    .productos{
+        grid-column: 1/11;
+        grid-row: 2;
+        margin-left: 8%;
+    }
+    .filtro{
+        background-color: #888686;
+        grid-column: 1/11;
+        grid-row: 1;
+        margin: 25px;
+        text-align: center;
+    }
     .form{
         width: 100%;
     }
-    
     .form > label, input, textarea{
         width: 100%;
         font-size: 13px;
