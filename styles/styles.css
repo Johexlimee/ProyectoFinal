@@ -454,6 +454,7 @@ footer > a{
         width: 60px;
         margin: 10px 20px;
         padding: 15px;
+        font-weight: 600;
     }
     .imgContact{
         grid-column: 1/11;
@@ -481,6 +482,7 @@ footer > a{
         width: 45px;
         margin: 10px 20px;
         padding: 5px;
+        font-weight: 600;
     }
     .infoStore{
         font-size: 8px;
