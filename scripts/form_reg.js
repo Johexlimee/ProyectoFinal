@@ -36,8 +36,6 @@ formuReg.addEventListener("change",(e)=>{
             regValidacion.contraseña = validacion.validUser(miValue);
             regValidacion.contraseña ? validClass(): inValidClass();
             console.log(Object.values(regValidacion));
-            break;
-        
+            break;   
     }
-
 });
