@@ -260,8 +260,8 @@ background-image: radial-gradient(circle at 100% 0%, #cdc2a7 0, #b9af86 25%, #a2
     text-align: center !important;
 }
 .is-valid{
-    background-color: #7fb17f !important;
-    border-bottom: 1px solid #7fb17f !important;
+    background-color: #91f191 !important;
+    border-bottom: 1px solid #91f191 !important;
 }
 .is-invalid{
     border-bottom: 2px solid #f81818 !important;

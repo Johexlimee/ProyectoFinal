@@ -12,7 +12,7 @@ class Validacion{
         return response;
     }
     validPass(cad){
-        const passRX = /([a-zA-Z0-9.#$%&]{8,10})/g;
+        const passRX = /([a-zA-Z0-9#$%&]{8,20})/g;
         const response = this.inputValid(cad,passRX);
         return response;
     }
