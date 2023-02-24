@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Gamerstore</title>
+</head>
+<body>
+    <header class="separador">
+        <div class="logoHead">
+            <a href="./index.html"><img src="./assets/img/Logo.png" alt="Logo" class="imgLogo">Gamerstore</a>
+        </div>
+        <div class="logoLinks">
+            <a href="./pages/login.html"><img src="./assets/img/sesion.png" class="linkImg" alt="Iniciar Sesion"></a>
+            <a href="./pages/shopping.html"><img src="./assets/img/Carrito.png" class="linkImg" alt="Carrito"></a>
+        </div>
+    </header>
+    <main>
+        <section class="titulo">
+            <h1>Gamerstore</h1>
+            <p>Elige tu Juego</p>
+        </section>
+        <section class="separador">
+            <div class="infoStore">
+                <p>Gamerstore esta creado por jugadores apasionados, esta pagina esta creada con el fin de no estar mucho tiempo en largas filas para gastar todo el dinero que tienes ahorrado y comprar esa cosa que quieres. nuestra prioridad es ofrecerte acceso inmediato y barato a el contenido que tienen que ofrecer los juegos mas recientes. todo gracias a la existencia del formato electronico, recortamos el tiempo que esperas en las largas filas de las tiendas y los gastos que implican el almacenamiento fisico y la logistica. ademas de eso, los encontraras todos en un mismo lugar y al mejor precio ;).</p>
+            </div>
+            <div class="imgStore">
+                <img src="./assets/img/fornite.jpg" alt="Fornite">
+            </div>
+        </section>
+        <section class="titulo">
+            <h2>Productos de tus juegos favoritos en un solo lugar</h2>
+        </section>
+        <section class="separador">
+            <div class="filtro">
+                <h2>Filtros</h2>
+                <label for="buscador">Categoria</label>
+                <select name="buscador" id="buscador" class="buscador">
+                    <option value="">Todo</option>
+                    <option value="skin">Skins</option>
+                    <option value="stock">En Stock</option>
+                    <option value="agotado">Agotado</option>
+                    <option value="v">Moneda Virtual</option>
+                </select><br><br><br>
+                <label for="buscador">Palabra Clave:</label>
+                <input type="text" name="buscador" id="buscador" placeholder="Buscar..." class="buscador">
+            </div>
+            <div class="productos">
+                <div class="card skin stock">
+                    <img src="./assets/img/ak-47.jpg" alt="" >
+                        <p class="nProducto">Skin CS:GO ak-47</p>
+                        <p class="nPrecio">$30.000</p>
+                        <p class="nJuego">CS:GO</p>
+                        <p class="nDispo">EN STOCK</p>
+                        <p class="nCodigo">CSAK4757</p>
+                        <button>Agregar al Carrito</button>
+                        <button id="descripccion">Descripción</button>
+                </div>
+                <div class="card skin nstock">
+                    <img src="./assets/img/Desert-eagle.png" alt="" >
+                        <p class="nProducto">Skin Desert Eagle</p>
+                        <p class="nPrecio">$25000</p>
+                        <p class="nJuego">CS:GO</p>
+                        <p class="nDispo">AGOTADO</p>
+                        <p class="nCodigo">CSDESERT4861</p>
+                        <button>Agregar al Carrito</button>
+                        <button>Descripción</button>
+                </div>
+                <div class="card skin stock">
+                    <img src="./assets/img/m4a1-fast.jpg" alt="" class="helmet">
+                        <p class="nProducto">Skin M4A1</p>
+                        <p class="nPrecio">$40000</p>
+                        <p class="nJuego">CS:GO</p>
+                        <p class="nDispo">EN STOCK</p>
+                        <p class="nCodigo">M4A16870:</p>
+                        <button>Agregar al Carrito</button>
+                        <button>Descripción</button>
+                </div>
+                <div class="card skin nstock">
+                    <img src="./assets/img/mp5.jpg" alt="">
+                        <p class="nProducto">Skin MP5</p>
+                        <p class="nPrecio">$28000</p>
+                        <p class="nJuego">CS:GO</p>
+                        <p class="nDispo">AGOTADO</p>
+                        <p class="nCodigo">MP57643</p>
+                        <button>Agregar al Carrito</button>
+                        <button>Descripción</button>
+                </div>
+                <div class="card vmoney stock">
+                    <img src="./assets/img/pavos.jpg" alt="">
+                        <p class="nProducto">1000 PAVOS</p>
+                        <p class="nPrecio">$35.000</p>
+                        <p class="nJuego">Fortnite</p>
+                        <p class="nDispo">En STOCK</p>
+                        <p class="nCodigo">PAVOS576910</p>
+                        <button>Agregar al Carrito</button>
+                        <button>Descripción</button>
+                </div>
+                <div class="card skin stock">
+                    <img src="./assets/img/m4a1.jpg" alt="">
+                        <p class="nProducto">Skin M4A1</p>
+                        <p class="nPrecio">$45000</p>
+                        <p class="nJuego">CS:GO</p>
+                        <p class="nDispo">EN STOCK</p>
+                        <p class="nCodigo">M4A179684</p>
+                        <form id="formulario"method="post" action="cart.php"></form>
+                            <button type="submit">Agregar al Carrito</button>
+                            <button>Descripción</button>
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="./assets/img/Logo.png" alt="Logo" class="imgLogo">
+        <a href="./pages/about.html">Acerca de Nosotros   </a>
+        <a href="./pages/contact.html">Contactos</a>
+        <script src="./scripts/main.js"></script>
+    </footer>
+</body>
+</html>

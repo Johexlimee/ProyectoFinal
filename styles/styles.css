@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F1C232;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    color: #F1C232;
+}
+h2 {
+    font-size: 40px;
+    padding: 10px;
+    color: #F1C232;
+}
+footer {
+    background-color: #333333;
+}
+footer > a{
+    color: white;
+    font-size: 25px;
+    margin: 10px 30px;
+}
+/*Index*/
+.imgLogo{
+    height: auto;
+    width: 100px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.separador{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.logoHead{
+    grid-column: 1/7;
+    grid-row: 1;
+    font-size: 70px;
+}
+.logoHead > a{
+    color: black;
+}
+.logoLinks{
+    text-align: end;
+    grid-column: 7/11;
+    grid-row: 1;
+}
+.linkImg{
+    height: auto;
+    width: 80px;
+    margin: 10px 20px;
+    padding: 15px;
+}
+.infoStore{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    font-size: 30px;
+    padding: 5%;
+}
+.imgStore{
+    grid-column: 5/11;
+    grid-row: 1;
+    padding: 3%;
+}
+.imgStore img{
+    height: auto;
+    width: 100%;
+}
+.card img{
+    height: auto;
+    width: 100px;
+}
+.logo{
+    padding: 5px;
+    font-size: 80px;
+    color: black;
+}
+.titulo {
+    background-color: #666666;
+    text-align: center;
+}
+.titulo > p{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.filtro{
+    background-color: #888686;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin: 25px;
+    text-align: center;
+}
+.productos{
+    grid-column: 4/11;
+    grid-row: 1;
+}
+.card {
+    margin: 25px auto;
+    background-image: linear-gradient(180deg, #adb0af 0, #a1aba7 12.5%, #94a5a0 25%, #849e9a 37.5%, #739794 50%, #61908f 62.5%, #4f898c 75%, #3c828b 87.5%, #277c8a 100%);
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+}
+.card > img {
+    width: 50%;
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+}
+.buscador {
+    display: inline-block;
+    width: 90%;
+}
+/*Inicia los forms login y sign maikeeelllll*/
+.contTargets{
+    width: 100vw;
+    display: flex;
+    margin-bottom: 211.6px;
+    padding: 15px 0px 15px 0px;
+}
+.containter-formu{
+    width: 35%;
+    height: 400px;
+    padding: 15px;
+    margin: 2% 10% auto;
+    background-color:#888686;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.form{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: center;
+    display: block;
+}
+
+.form > label, input, textarea{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+.form > button{
+    display: inline-block;
+    width: 30%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 15px;
+    box-shadow: 2px 1.5px 1.5px#2c2c2c;
+}
+.tarjeta-2{
+    width: 50%;
+    text-align: center;
+    
+}
+.tarjeta-2 > h1{
+    font-size: 50px;
+    color: #333333;
+}
+.tarjeta-2 > p{
+    font-size: 25px;
+    color: #333333;
+    vertical-align: middle;
+}
+.tarjeta-2 > p h1 button{
+    position: relative;
+    top: 25%;
+    padding: 7px;
+    margin: 15px;
+    right: 5%;
+}
+.tarjeta-2 > button{
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 15px;
+    box-shadow: 2px 1.5px 1.5px#2c2c2c;
+}
+.tarjeta-2 >a{
+    font-size: 15px;
+    color: black;
+}
+.container-reg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px black;
+    margin-bottom: 44px;
+}
+.contenedor-form-reg{
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    margin: 20px;
+    background-color:#888686;
+    align-items: left;
+    justify-content: left;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.form-reg{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    justify-content: center;
+}
+.form-reg > label, input{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    text-align: left;
+}
+.form-reg > button{
+    width: 30%;
+    font-size: 15px;
+    padding: 7px;
+    margin: 0 auto;
+    box-shadow: 2px 1.5px 1.5px#2c2c2c;
+}
+.tarjeta-2-reg{
+    width:70%;
+    text-align: justify;
+    text-justify:distribute;
+    padding: 15px;
+}
+.tarjeta-2-reg > p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.tarjeta-2-reg > img{
+    margin:0 auto;
+    width: 100%;
+}
+.check{
+    text-align: center !important;
+}
+.is-valid{
+    background-color: #7fb17f !important;
+    border-bottom: 1px solid #7fb17f !important;
+}
+.is-invalid{
+    border-bottom: 2px solid #f81818 !important;
+}
+/*Fin forms maikeeelllll*/
+.carroContenedor{
+    margin: 50px;
+    background-color: #333333;
+    grid-column: 3/9;
+    grid-row: 1/7;
+}
+.imgProducto{
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+}
+.imgContact{
+    grid-column: 1/5;
+    grid-row: 1;
+    font-size: 20px;
+    padding: 5%;
+}
+.imgContact > img{
+    height: auto;
+    width: 100%;
+    margin: 7%;
+}
+.formContact{
+    background-color: #888686;
+    margin: 5%;
+    grid-column: 5/11;
+    grid-row: 1;
+    padding: 3%;
+}
+.alerta{
+    width: 25%;
+    height: 100px;
+    background-color: #f25757;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 7%;
+    border: 2px solid #3c3d59;
+}
+.textAlerta{
+    width: 100%;
+    margin-top: 10%;
+    color: #fff;
+}
+/* about keviiiiiiin*/
+.nosotros{
+    margin: 2% 0 0 6%;
+    font-size: 30px;
+}
+.texto{
+    font-size: 25px;
+    margin: 3% 0 0 6%;
+}
+.containerNosotros{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 30%;
+    margin-top: 5%;
+}
+.perfil{
+    background-color:#333333;
+    margin: 20px;
+    display: inline-block;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding: 2%;
+    color: white;
+}
+.imgPerfil{
+    height: auto;
+    width: 100%;
+}
+@media(max-width:1260px) {
+    .infoStore{
+        font-size: 20px;
+        padding: 5%;
+    }
+}
+@media (max-width:950px){
+    .tarjeta-2 > h1{
+        font-size: 35px;
+        color: #333333;
+    }
+    .tarjeta-2 > p{
+        font-size: 15px;
+        color: #333333;
+        vertical-align: middle;
+    }
+    .nosotros{
+        font-size: 25px;
+    }
+    .texto{
+        font-size: 20px;
+    }
+    .infoStore{
+        font-size: 12px;
+        padding: 5%;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .logoHead{
+        font-size: 40px;
+    }
+}
+@media (max-width:640px){
+    .productos{
+        grid-column: 1/11;
+        grid-row: 2;
+        margin-left: 8%;
+    }
+    .filtro{
+        background-color: #888686;
+        grid-column: 1/11;
+        grid-row: 1;
+        margin: 25px;
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+    }
+    .form > label, input, textarea{
+        width: 100%;
+        font-size: 13px;
+    }
+    .form > button{
+        display: inline-block;
+        width: 50%;
+        font-size: 15px;
+        padding: 7px;
+        margin: 15px;
+        box-shadow: 2px 1.5px 1.5px#2c2c2c;
+    }
+    .containter-formu{
+        width: 50%;
+        height: auto;
+        padding: 7px;
+    }
+    .tarjeta-2-reg{
+        width:100%;
+        padding: 10px;
+    }
+    .form-reg > label, input{
+        width: 100%;
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    .form-reg > button{
+        width: 30%;
+        font-size: 10px;
+        padding: 7px;
+        margin: 0 auto;
+        box-shadow: 2px 1.5px 1.5px#2c2c2c;
+    }
+    .nosotros{
+        font-size: 20px;
+    }
+    .texto{
+        font-size: 15px;
+    }
+    .containerNosotros p{
+        font-size: 10px;
+    }
+    .perfil{
+        margin: 10px;
+    }
+    footer > a{
+        font-size: 15px;
+    }
+    .imgLogo{
+        width: 80px;
+        padding: 10px;
+    }
+    .linkImg{
+        height: auto;
+        width: 60px;
+        margin: 10px 20px;
+        padding: 15px;
+    }
+    .card {
+        width: 45%;
+        padding: 10px;  
+    }
+    .imgContact{
+        grid-column: 1/11;
+        grid-row: 1;
+        font-size: 20px;
+        padding: 5%;
+    }
+    .imgContact > img{
+        width: 80%;
+        margin: 7%;
+    }
+    .formContact{
+        margin: 5%;
+        grid-column: 1/11;
+        grid-row: 2;
+        padding: 3%;
+    }
+}
+@media (max-width:536px){
+    .imgLogo{
+        width: 60px;
+        padding: 10px;
+    }
+    .linkImg{
+        width: 45px;
+        margin: 10px 20px;
+        padding: 5px;
+    }
+    .infoStore{
+        font-size: 8px;
+        padding: 5%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .titulo > p{
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        padding: 6px;
+    }
+    .logoHead{
+        font-size: 30px;
+    }
+    
+}
+.filt{
+    display: none;
+}
