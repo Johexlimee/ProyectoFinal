@@ -12,8 +12,9 @@ class Validacion{
         return response;
     }
     validPass(cad){
-        const passRX = /([a-zA-Z0-9#$%&]{8,25})/g;
+        const passRX = /([a-zA-Z0-9#$%&]{8,20})/g;
         const response = this.inputValid(cad,passRX);
+        return response;
     }
     validEmail(cad){
         const mailRX = /^([\w.]+[^#$%&\/()='"!?¡¿]\w*-*)([@])(\w)+(\.[a-z]{2,3})$/g;// la expresion \. significa que el punto es obligatorio
